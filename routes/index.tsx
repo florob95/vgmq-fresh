@@ -24,9 +24,9 @@ export default function Home() {
                 <h1 class='text-white text-8xl text-center'>VIDEO GAME</h1>
                 <h1 class='text-white text-8xl text-center'>MUSIC QUIZ</h1>
                 <form class='flex items-center justify-center flex-col'>
-                    <input class='bg-grey text-center placeholder:text-white w-[400px] h-[53px] mt-8 mb-2 rounded-md'
+                    <input class='bg-grey text-center placeholder:text-white w-[300px] md:w-[400px] h-[53px] mt-8 mb-2 rounded-md'
                            type='text' placeholder='Username'></input>
-                    <input class='bg-grey text-center placeholder:text-white w-[400px] h-[53px] rounded-md'
+                    <input class='bg-grey text-center placeholder:text-white w-[300px] md:w-[400px] h-[53px] rounded-md'
                            type='password' placeholder='Password'></input>
                     <button class='h-btn w-btn bg-lime mt-6'>Login</button>
                     <p class='text-white text-sm mt-5'>Forgot your password?</p>
@@ -54,7 +54,7 @@ export default function Home() {
                     </p>
                 </div>
             </section>
-            <section id='play' class='flex gap-4 justify-center bg-light-green'>
+            <section id='play' class='flex flex-col md:flex-row gap-4 justify-center bg-light-green'>
                 <div
                     class='bg-black mt-20 text-white rounded-2xl max-w-[550px] h-[700px] shadow-[-40px_40px] shadow-yellow'>
                     <div class='flex flex-col justify-center h-full mx-8'>
@@ -72,7 +72,7 @@ export default function Home() {
                             Thanks to the ever expandi1</p>
                     </div>
                 </div>
-                <div class='bg-black text-white rounded-2xl max-w-[550px] h-[700px] shadow-[40px_40px] shadow-lime'>
+                <div class='bg-black text-white rounded-2xl max-w-[550px] h-[700px] shadow-[40px_40px] shadow-lime md:mt-0 mt-8'>
                     <div class='flex flex-col justify-center h-full mx-8'>
                         <img
                             class='mb-10'
@@ -102,7 +102,7 @@ export default function Home() {
                 <div class='text-white text-center'>Pour les images jaquettes va falloir faire du js</div>
             </section>
             <section id='join' class='bg-black flex flex-col items-center'>
-                <h1 class='text-7xl text-white'>join now for free</h1>
+                <h1 class='text-7xl text-white text-center'>join now for free</h1>
                 <button class='h-btn w-btn bg-lime mt-6'>Register</button>
             </section>
             <footer class='bg-[#000000] flex  items-center justify-start h-[80px]'>
