@@ -118,20 +118,20 @@ export default function Home() {
             </section>
             <section id='games-preview' class='flex flex-col bg-black gap-4'>
                 <div class='flex gap-4 overflow-hidden mx-4 justify-center'>
-                    <img class='w-[240px] lg:w-[285px]' width='240px' height='340px' src='/img/a_way.png'/>
-                    <img class='w-[240px] lg:w-[285px]' width='240px' height='340px' src='/img/ac.png'/>
-                    <img class='w-[240px] lg:w-[285px]' height='340px' src='/img/ace_combat.png'/>
-                    <img class='w-[240px] lg:w-[285px]' height='340px' src='/img/advance_war.png'/>
-                    <img class='w-[240px] lg:w-[285px]' height='340px' src='/img/age_myth.png'/>
-                    <img class='w-[240px] lg:w-[285px]' height='340px' src='/img/age_of.png'/>
+                    <img class='w-[240px] lg:w-[320px]' width='240px' height='340px' src='/img/a_way.png'/>
+                    <img class='w-[240px] lg:w-[320px]' width='240px' height='340px' src='/img/ac.png'/>
+                    <img class='w-[240px] lg:w-[320px]' height='340px' src='/img/ace_combat.png'/>
+                    <img class='w-[240px] lg:w-[320px]' height='340px' src='/img/advance_war.png'/>
+                    <img class='w-[240px] lg:w-[320px]' height='340px' src='/img/age_myth.png'/>
+                    <img class='w-[240px] lg:w-[320px]' height='340px' src='/img/age_of.png'/>
                 </div>
                 <div class='flex gap-4 mx-8 overflow-hidden justify-center'>
-                    <img class='w-[240px] lg:w-[285px]' height='340px' src='/img/amnesia.png'/>
-                    <img class='w-[240px] lg:w-[285px]' height='340px' src='/img/among_us.png'/>
-                    <img class='w-[240px] lg:w-[285px]' height='340px' src='/img/arknights.png'/>
-                    <img class='w-[240px] lg:w-[285px]' height='340px' src='/img/borderlands.png'/>
-                    <img class='w-[240px] lg:w-[285px]' height='340px' src='/img/call_of.png'/>
-                    <img class='w-[240px] lg:w-[285px]' height='340px' src='/img/total_war.png'/>
+                    <img class='w-[240px] lg:w-[320px]' height='340px' src='/img/amnesia.png'/>
+                    <img class='w-[240px] lg:w-[320px]' height='340px' src='/img/among_us.png'/>
+                    <img class='w-[240px] lg:w-[320px]' height='340px' src='/img/arknights.png'/>
+                    <img class='w-[240px] lg:w-[320px]' height='340px' src='/img/borderlands.png'/>
+                    <img class='w-[240px] lg:w-[320px]' height='340px' src='/img/call_of.png'/>
+                    <img class='w-[240px] lg:w-[320px]' height='340px' src='/img/total_war.png'/>
                 </div>
             </section>
             <section id='join' class='bg-black flex flex-col items-center'>
