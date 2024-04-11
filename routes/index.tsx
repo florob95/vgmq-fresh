@@ -24,8 +24,9 @@ export default function Home() {
                 <h1 class='text-white text-8xl text-center'>VIDEO GAME</h1>
                 <h1 class='text-white text-8xl text-center'>MUSIC QUIZ</h1>
                 <form class='flex items-center justify-center flex-col'>
-                    <input class='bg-grey text-center placeholder:text-white w-[300px] md:w-[400px] h-[53px] mt-8 mb-2 rounded-md'
-                           type='text' placeholder='Username'></input>
+                    <input
+                        class='bg-grey text-center placeholder:text-white w-[300px] md:w-[400px] h-[53px] mt-8 mb-2 rounded-md'
+                        type='text' placeholder='Username'></input>
                     <input class='bg-grey text-center placeholder:text-white w-[300px] md:w-[400px] h-[53px] rounded-md'
                            type='password' placeholder='Password'></input>
                     <button class='h-btn w-btn bg-lime mt-6'>Login</button>
@@ -65,6 +66,14 @@ export default function Home() {
                             height='80'
                         />
                         <h1 class='text-7xl'>FREE TO PLAY</h1>
+                        <svg class='text-yellow mt-4' width="268" height="30" viewBox="0 0 268 28" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 0L130.606 0L118.34 27.412H0V0Z" fill="currentColor"/>
+                            <path d="M146.652 0H189.107L176.841 27.412H134.386L146.652 0Z" fill="currentColor"/>
+                            <path d="M201.476 0H224.542L212.276 27.412H189.21L201.476 0Z" fill="currentColor"/>
+                            <path d="M236.911 0H249.177L236.911 27.412H224.645L236.911 0Z" fill="currentColor"/>
+                            <path d="M261.649 0H268L255.734 27.412H249.383L261.649 0Z" fill="currentColor"/>
+                        </svg>
                         <p class='mt-10'>a quiz game about games music! Inspired by the popular “guess the
                             opening/ending song”
                             quizzes,
@@ -72,7 +81,8 @@ export default function Home() {
                             Thanks to the ever expandi1</p>
                     </div>
                 </div>
-                <div class='bg-black text-white rounded-2xl max-w-[550px] h-[700px] shadow-[40px_40px] shadow-lime md:mt-0 mt-8'>
+                <div
+                    class='bg-black text-white rounded-2xl max-w-[550px] h-[700px] shadow-[40px_40px] shadow-lime md:mt-0 mt-8'>
                     <div class='flex flex-col justify-center h-full mx-8'>
                         <img
                             class='mb-10'
@@ -81,6 +91,14 @@ export default function Home() {
                             height='80'
                         />
                         <h1 class='text-7xl'>play with others</h1>
+                        <svg class='text-lime mt-4' width="268" height="30" viewBox="0 0 268 28" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 0L130.606 0L118.34 27.412H0V0Z" fill="currentColor"/>
+                            <path d="M146.652 0H189.107L176.841 27.412H134.386L146.652 0Z" fill="currentColor"/>
+                            <path d="M201.476 0H224.542L212.276 27.412H189.21L201.476 0Z" fill="currentColor"/>
+                            <path d="M236.911 0H249.177L236.911 27.412H224.645L236.911 0Z" fill="currentColor"/>
+                            <path d="M261.649 0H268L255.734 27.412H249.383L261.649 0Z" fill="currentColor"/>
+                        </svg>
                         <p class='mt-10'>a quiz game about games music! Inspired by the popular “guess the
                             opening/ending song”
                             quizzes,
@@ -98,8 +116,23 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-            <section id='game-preview' class='bg-black'>
-                <div class='text-white text-center'>Pour les images jaquettes va falloir faire du js</div>
+            <section id='game-preview' class='flex flex-col bg-black gap-4'>
+                <div class='flex gap-4 overflow-hidden mx-4 justify-center'>
+                    <img width='240px' height='340px' src='/img/a_way.png'/>
+                    <img width='240px' height='340px' src='/img/ac.png'/>
+                    <img width='240px' height='340px' src='/img/ace_combat.png'/>
+                    <img width='240px' height='340px' src='/img/advance_war.png'/>
+                    <img width='240px' height='340px' src='/img/age_myth.png'/>
+                    <img width='240px' height='340px' src='/img/age_of.png'/>
+                </div>
+                <div class='flex gap-4 mx-8 overflow-hidden justify-center'>
+                    <img width='230px' height='340px' src='/img/amnesia.png'/>
+                    <img width='230px' height='340px' src='/img/among_us.png'/>
+                    <img width='230px' height='340px' src='/img/arknights.png'/>
+                    <img width='230px' height='340px' src='/img/borderlands.png'/>
+                    <img width='230px' height='340px' src='/img/call_of.png'/>
+                    <img width='230px' height='340px' src='/img/total_war.png'/>
+                </div>
             </section>
             <section id='join' class='bg-black flex flex-col items-center'>
                 <h1 class='text-7xl text-white text-center'>join now for free</h1>

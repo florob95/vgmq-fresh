@@ -21,4 +21,28 @@
     section {
         @apply py-16
     }
+
+    #game-preview > div {
+        position: relative;
+    }
+
+    #game-preview > div::before,
+    #game-preview > div::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 30%;
+        background: linear-gradient(to right, rgba(0, 0, 0, 1.5), transparent);
+    }
+
+    #game-preview > div::before {
+        left: 0;
+    }
+
+    #game-preview > div::after {
+        right: 0;
+        transform: scaleX(-1);
+    }
+
 }
