@@ -3,6 +3,9 @@ import {type Config} from 'tailwindcss'
 export default {
     theme: {
         extend: {
+            fontFamily: {
+                poppins: 'Poppins, sans-serif',
+            },
             colors: {
                 black: '#09111A',
                 grey: '#141F2B',

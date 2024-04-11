@@ -35,7 +35,7 @@ export default function Home() {
                     </p>
                 </form>
             </section>
-            <section id='what-is' class='flex justify-center gap-4 bg-yellow'>
+            <section id='what-is' class='flex flex-col md:flex-row justify-center gap-4 bg-yellow'>
                 <div class='max-w-[530px]'>
                     <h1 class='text-8xl text-[#000000] text-center'>what is</h1>
                     <img
@@ -45,7 +45,7 @@ export default function Home() {
                     />
                 </div>
                 <div class='max-w-[530px]'>
-                    <p class='leading-7'>
+                    <p class=' text-center leading-7'>
                         Quiz game about games music! Inspired by the popular “guess the opening/ending song” quizzes,
                         that are all about matching a set of game songc Quiz takes these quizzes one step further!
                         Thanks to the ever expanding community driven song database, an unlimited amount of unique
@@ -110,28 +110,28 @@ export default function Home() {
             <section id='games-number' class='bg-green'>
                 <div class='flex justify-end'>
                     <div class='flex  flex-col items-center'>
-                        <h2 class='font-bold text-7xl'>155+ GAMES</h2>
+                        <h1 class='text-7xl'><span class='font-poppins font-bold'>155+</span> GAMES</h1>
                         <p>a quiz game about games music! Inspired by the popular “guess the opening/ending song”</p>
                         <p>quizzes, that are all about matching a set of game songc Quiz takes these quiz</p>
                     </div>
                 </div>
             </section>
-            <section id='game-preview' class='flex flex-col bg-black gap-4'>
+            <section id='games-preview' class='flex flex-col bg-black gap-4'>
                 <div class='flex gap-4 overflow-hidden mx-4 justify-center'>
-                    <img width='240px' height='340px' src='/img/a_way.png'/>
-                    <img width='240px' height='340px' src='/img/ac.png'/>
-                    <img width='240px' height='340px' src='/img/ace_combat.png'/>
-                    <img width='240px' height='340px' src='/img/advance_war.png'/>
-                    <img width='240px' height='340px' src='/img/age_myth.png'/>
-                    <img width='240px' height='340px' src='/img/age_of.png'/>
+                    <img class='w-[240px] lg:w-[285px]' width='240px' height='340px' src='/img/a_way.png'/>
+                    <img class='w-[240px] lg:w-[285px]' width='240px' height='340px' src='/img/ac.png'/>
+                    <img class='w-[240px] lg:w-[285px]' height='340px' src='/img/ace_combat.png'/>
+                    <img class='w-[240px] lg:w-[285px]' height='340px' src='/img/advance_war.png'/>
+                    <img class='w-[240px] lg:w-[285px]' height='340px' src='/img/age_myth.png'/>
+                    <img class='w-[240px] lg:w-[285px]' height='340px' src='/img/age_of.png'/>
                 </div>
                 <div class='flex gap-4 mx-8 overflow-hidden justify-center'>
-                    <img width='230px' height='340px' src='/img/amnesia.png'/>
-                    <img width='230px' height='340px' src='/img/among_us.png'/>
-                    <img width='230px' height='340px' src='/img/arknights.png'/>
-                    <img width='230px' height='340px' src='/img/borderlands.png'/>
-                    <img width='230px' height='340px' src='/img/call_of.png'/>
-                    <img width='230px' height='340px' src='/img/total_war.png'/>
+                    <img class='w-[240px] lg:w-[285px]' height='340px' src='/img/amnesia.png'/>
+                    <img class='w-[240px] lg:w-[285px]' height='340px' src='/img/among_us.png'/>
+                    <img class='w-[240px] lg:w-[285px]' height='340px' src='/img/arknights.png'/>
+                    <img class='w-[240px] lg:w-[285px]' height='340px' src='/img/borderlands.png'/>
+                    <img class='w-[240px] lg:w-[285px]' height='340px' src='/img/call_of.png'/>
+                    <img class='w-[240px] lg:w-[285px]' height='340px' src='/img/total_war.png'/>
                 </div>
             </section>
             <section id='join' class='bg-black flex flex-col items-center'>
