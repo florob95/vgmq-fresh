@@ -35,7 +35,7 @@ export default function Home() {
                     </p>
                 </form>
             </section>
-            <section id='what-is' class='flex flex-col md:flex-row justify-center gap-4 bg-yellow'>
+            <section id='what-is' class='flex flex-col md:flex-row justify-center gap-4 bg-yellow lg:bg-light-green'>
                 <div class='max-w-[530px]'>
                     <h1 class='text-8xl text-[#000000] text-center'>what is</h1>
                     <img
@@ -107,7 +107,7 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-            <section id='games-number' class='bg-green'>
+            <section id='games-number' class='bg-light-green'>
                 <div class='flex justify-end'>
                     <div class='flex  flex-col items-center'>
                         <h1 class='text-7xl'><span class='font-poppins font-bold'>155+</span> GAMES</h1>
