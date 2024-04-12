@@ -52,8 +52,8 @@
     #what-is::before {
         content: '';
         position: absolute;
-        top: -1300px;
-        bottom: -75px;
+        top: -1700px;
+        bottom: -100px;
         background-image: url('svg/what_is_bg.svg');
         background-repeat: no-repeat;
         background-size: cover;
