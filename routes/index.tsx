@@ -46,12 +46,10 @@ export default function Home() {
                 </div>
                 <div class='max-w-[530px]'>
                     <p class=' text-center leading-7'>
-                        Quiz game about games music! Inspired by the popular “guess the opening/ending song” quizzes,
-                        that are all about matching a set of game songc Quiz takes these quizzes one step further!
-                        Thanks to the ever expanding community driven song database, an unlimited amount of unique
-                        quizzes can be generated. Furthermore you can add your MyAnimeList account to have your quizzes
-                        personalised by the anime you’ve watched, while still throwing in new and fresh anime for you to
-                        discover!
+                        VGMQ is a free, multiplayer game that lets you challenge your friends to a fun and challenging music quiz!
+                        The questions are based on your gaming history, so you'll only hear music from games you've played !
+                        VGMQ is still under development, but we're always adding new features and games!
+                        Feel free to join the <a href='https://discord.gg/cxqeYdfz3X' class='text-blue-950'>Discord</a>!
                     </p>
                 </div>
             </section>
@@ -74,11 +72,7 @@ export default function Home() {
                             <path d="M236.911 0H249.177L236.911 27.412H224.645L236.911 0Z" fill="currentColor"/>
                             <path d="M261.649 0H268L255.734 27.412H249.383L261.649 0Z" fill="currentColor"/>
                         </svg>
-                        <p class='mt-10'>a quiz game about games music! Inspired by the popular “guess the
-                            opening/ending song”
-                            quizzes,
-                            that are all about matching a set of game songc Quiz takes these quizzes one step further!
-                            Thanks to the ever expandi1</p>
+                        <p class='mt-10'>VGMQ will always be free! Your support through donations helps us keep it going !</p>
                     </div>
                 </div>
                 <div
@@ -99,20 +93,15 @@ export default function Home() {
                             <path d="M236.911 0H249.177L236.911 27.412H224.645L236.911 0Z" fill="currentColor"/>
                             <path d="M261.649 0H268L255.734 27.412H249.383L261.649 0Z" fill="currentColor"/>
                         </svg>
-                        <p class='mt-10'>a quiz game about games music! Inspired by the popular “guess the
-                            opening/ending song”
-                            quizzes,
-                            that are all about matching a set of game songc Quiz takes these quizzes one step further!
-                            Thanks to the ever expandi1</p>
+                        <p class='mt-10'>Challenge your friends in public or private lobbies!</p>
                     </div>
                 </div>
             </section>
             <section id='games-number' class='bg-light-green'>
                 <div class='flex justify-end'>
                     <div class='flex  flex-col items-center'>
-                        <h1 class='text-7xl'><span class='font-poppins font-bold'>155+</span> GAMES</h1>
-                        <p>a quiz game about games music! Inspired by the popular “guess the opening/ending song”</p>
-                        <p>quizzes, that are all about matching a set of game songc Quiz takes these quiz</p>
+                        <h1 class='text-7xl'><span class='font-poppins font-bold'>1000+</span> GAMES</h1>
+                        <p class='mr-2'>With over 30,000 songs from 1,000 games, there's something for everyone!</p>
                     </div>
                 </div>
             </section>
