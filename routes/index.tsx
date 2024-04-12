@@ -1,6 +1,6 @@
 export default function Home() {
     return (
-        <div>
+        <div class='bg-light-green relative -z-10'>
             <header class='bg-black h-70'>
                 <nav class='flex items-center justify-between'>
                     <img class='ml-6 mt-1'
@@ -20,22 +20,25 @@ export default function Home() {
                     </div>
                 </nav>
             </header>
-            <section id='login' class='flex items-center flex-col bg-black'>
+            <section id='login' class='flex items-center flex-col bg-black lg:rounded-bl-[300px]'>
                 <h1 class='text-white text-8xl text-center'>VIDEO GAME</h1>
                 <h1 class='text-white text-8xl text-center'>MUSIC QUIZ</h1>
                 <form class='flex items-center justify-center flex-col'>
                     <input
                         class='bg-grey text-center placeholder:text-white w-[300px] md:w-[400px] h-[53px] mt-8 mb-2 rounded-md'
                         type='text' placeholder='Username'></input>
-                    <input class='bg-grey text-center placeholder:text-white w-[300px] md:w-[400px] h-[53px] rounded-md'
-                           type='password' placeholder='Password'></input>
+                    <input
+                        class='bg-grey text-center placeholder:text-white w-[300px] md:w-[400px] h-[53px] rounded-md'
+                        type='password' placeholder='Password'></input>
                     <button class='h-btn w-btn bg-lime mt-6'>Login</button>
                     <p class='text-white text-sm mt-5'>Forgot your password?</p>
-                    <p class='text-white text-sm'>Don’t have account? <span class='text-[#59EE7F]'>Register Here</span>
+                    <p class='text-white text-sm'>Don’t have account? <span
+                        class='text-[#59EE7F]'>Register Here</span>
                     </p>
                 </form>
             </section>
-            <section id='what-is' class='flex flex-col md:flex-row justify-center gap-4 bg-yellow lg:bg-light-green'>
+            <section id='what-is'
+                     class='flex flex-col align-center md:flex-row md:justify-center gap-4 md:bg-[unset] bg-yellow'>
                 <div class='max-w-[530px]'>
                     <h1 class='text-8xl text-[#000000] text-center'>what is</h1>
                     <img
@@ -46,14 +49,16 @@ export default function Home() {
                 </div>
                 <div class='max-w-[530px]'>
                     <p class=' text-center leading-7'>
-                        VGMQ is a free, multiplayer game that lets you challenge your friends to a fun and challenging music quiz!
-                        The questions are based on your gaming history, so you'll only hear music from games you've played !
+                        VGMQ is a free, multiplayer game that lets you challenge your friends to a fun and challenging
+                        music quiz!
+                        The questions are based on your gaming history, so you'll only hear music from games you've
+                        played !
                         VGMQ is still under development, but we're always adding new features and games!
                         Feel free to join the <a href='https://discord.gg/cxqeYdfz3X' class='text-blue-950'>Discord</a>!
                     </p>
                 </div>
             </section>
-            <section id='play' class='flex flex-col md:flex-row gap-4 justify-center bg-light-green'>
+            <section id='play' class='flex flex-col md:flex-row gap-4 justify-center'>
                 <div
                     class='bg-black mt-20 text-white rounded-2xl max-w-[550px] h-[700px] shadow-[-40px_40px] shadow-yellow'>
                     <div class='flex flex-col justify-center h-full mx-8'>
@@ -72,7 +77,8 @@ export default function Home() {
                             <path d="M236.911 0H249.177L236.911 27.412H224.645L236.911 0Z" fill="currentColor"/>
                             <path d="M261.649 0H268L255.734 27.412H249.383L261.649 0Z" fill="currentColor"/>
                         </svg>
-                        <p class='mt-10'>VGMQ will always be free! Your support through donations helps us keep it going !</p>
+                        <p class='mt-10'>VGMQ will always be free! Your support through donations helps us keep it going
+                            !</p>
                     </div>
                 </div>
                 <div
@@ -97,8 +103,8 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-            <section id='games-number' class='bg-light-green'>
-                <div class='flex justify-end'>
+            <section id='games-number'>
+                <div class='flex justify-end text-center'>
                     <div class='flex  flex-col items-center'>
                         <h1 class='text-7xl'><span class='font-poppins font-bold'>1000+</span> GAMES</h1>
                         <p class='mr-2'>With over 30,000 songs from 1,000 games, there's something for everyone!</p>
