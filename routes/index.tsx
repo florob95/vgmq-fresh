@@ -1,6 +1,6 @@
 export default function Home() {
     return (
-        <div class='bg-light-green relative -z-10'>
+        <div class='bg-light-green relative z-10'>
             <header class='bg-black h-70'>
                 <nav class='flex items-center justify-between'>
                     <img class='ml-6 mt-1'
@@ -25,10 +25,10 @@ export default function Home() {
                 <h1 class='text-white text-8xl text-center'>MUSIC QUIZ</h1>
                 <form class='flex items-center justify-center flex-col'>
                     <input
-                        class='bg-grey text-center placeholder:text-white w-[300px] md:w-[400px] h-[53px] mt-8 mb-2 rounded-md'
+                        class='bg-grey text-center text-white placeholder:text-white w-[300px] md:w-[400px] h-[53px] mt-8 mb-2 rounded-md'
                         type='text' placeholder='Username'></input>
                     <input
-                        class='bg-grey text-center placeholder:text-white w-[300px] md:w-[400px] h-[53px] rounded-md'
+                        class='bg-grey text-center text-white placeholder:text-white w-[300px] md:w-[400px] h-[53px] rounded-md'
                         type='password' placeholder='Password'></input>
                     <button class='h-btn w-btn bg-lime mt-6'>Login</button>
                     <p class='text-white text-sm mt-5'>Forgot your password?</p>
@@ -54,7 +54,7 @@ export default function Home() {
                         The questions are based on your gaming history, so you'll only hear music from games you've
                         played !
                         VGMQ is still under development, but we're always adding new features and games!
-                        Feel free to join the <a href='https://discord.gg/cxqeYdfz3X' class='text-blue-950'>Discord</a>!
+                        Feel free to join the <a href='https://discord.gg/cxqeYdfz3X' target='_blank' class='text-blue-950'>Discord</a>!
                     </p>
                 </div>
             </section>
